@@ -50,28 +50,41 @@
       <link href="./index.css" rel="stylesheet" />
 
       <div class="home-container">
-        <header data-role="Header" class="home-header">
-          <div class="home-btn-group"></div>
-          <span class="home-text Heading">
-            <span>Analog</span>
-            <br />
-          </span>
-          <div data-role="BurgerMenu" class="home-burger-menu">
+        <header data-thq="thq-navbar" class="home-navbar-interactive">
+          <img
+            alt="logo"
+            src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
+            class="home-image"
+          />
+          <div data-thq="thq-navbar-nav" class="home-desktop-menu">
+            <nav class="home-links">
+              <span>About</span>
+              <span class="home-text01">Features</span>
+              <span class="home-text02">Pricing</span>
+              <span class="home-text03">Team</span>
+              <span class="home-text04">Blog</span>
+            </nav>
+            <div class="home-buttons">
+              <button class="home-login button">Login</button>
+              <button class="button">Register</button>
+            </div>
+          </div>
+          <div data-thq="thq-burger-menu" class="home-burger-menu">
             <svg viewBox="0 0 1024 1024" class="home-icon">
               <path
                 d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
               ></path>
             </svg>
           </div>
-          <div data-role="MobileMenu" class="home-mobile-menu">
-            <nav class="home-nav">
-              <div class="home-container1">
+          <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+            <div class="home-nav">
+              <div class="home-top">
                 <img
                   alt="image"
                   src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
-                  class="home-image"
+                  class="home-logo"
                 />
-                <div data-role="CloseMobileMenu" class="home-close-mobile-menu">
+                <div data-thq="thq-close-menu" class="home-close-menu">
                   <svg viewBox="0 0 1024 1024" class="home-icon02">
                     <path
                       d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
@@ -79,18 +92,18 @@
                   </svg>
                 </div>
               </div>
-              <nav
-                class="navigation-links-nav navigation-links-root-class-name14"
-              >
-                <span class="navigation-links-text"><span>About</span></span>
-                <span class="navigation-links-text1">
-                  <span>Features</span>
-                </span>
-                <span class="navigation-links-text2"><span>Pricing</span></span>
-                <span class="navigation-links-text3"><span>Team</span></span>
-                <span class="navigation-links-text4"><span>Blog</span></span>
+              <nav class="home-links1">
+                <span class="home-text05">About</span>
+                <span class="home-text06">Features</span>
+                <span class="home-text07">Pricing</span>
+                <span class="home-text08">Team</span>
+                <span class="home-text09">Blog</span>
               </nav>
-            </nav>
+              <div class="home-buttons1">
+                <button class="home-login1 button">Login</button>
+                <button class="button">Register</button>
+              </div>
+            </div>
             <div>
               <svg viewBox="0 0 950.8571428571428 1024" class="home-icon04">
                 <path
